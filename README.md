@@ -5,18 +5,17 @@
     zsh: tsc -v
 # Creates a file tsconfig.json for configure the compiler (uncomment)
     zsh : tsc -init
-[Target]
+# [Target]
     - ES2016 --> more stable version
-[rootDir]
+# [rootDir]
      ./src --> all the souce code will come from this folder path (create the folder inside the project)
-[outDir]
+# [outDir]
      ./dist --> todo el codigo transpilado a javascript va a esta carpeta (nombre carpetanes una convención)
-[noEmitOnError]
+# [noEmitOnError]
     false --> no crear codigo javascript en errores en typscript
-[removeComments]
+# [removeComments]
     true --> elimina los comentarios de la transpilacion a javascript 
-
-[sourceMap]
+# [sourceMap]
     true -->  creates a .map file after run your code
 
 # En la carpeta src ya creada, crea un archivo .ts para empezar 
